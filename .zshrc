@@ -114,9 +114,11 @@ export PATH=~/Project/ChromeOS/depot_tools:$PATH
 export PATH="$HOME/nvim/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.fzf/bin:$PATH"
+export EDITOR=nvim
 alias bat="batcat"
 alias ls="eza --icons=always --long --git --no-filesize --color=always --no-time --no-user --no-permissions"
 alias fd=fdfind
+alias rr=ranger
 eval "$(fzf --zsh)"
 # --- setup fzf theme ---
 fg="#CBE0F0"
